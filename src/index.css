@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fashion E-commerce Design System - Elegant & Modern */
+
+@layer base {
+  :root {
+    /* Core Brand Colors */
+    --background: 35 8% 98%;
+    --foreground: 30 8% 8%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 30 8% 12%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 8% 12%;
+    
+    /* Fashion Primary - Deep Charcoal */
+    --primary: 30 8% 8%;
+    --primary-foreground: 35 8% 98%;
+    
+    /* Fashion Secondary - Warm Cream */
+    --secondary: 45 15% 96%;
+    --secondary-foreground: 30 8% 12%;
+    
+    /* Muted Tones */
+    --muted: 30 6% 92%;
+    --muted-foreground: 30 5% 45%;
+    
+    /* Fashion Accent - Sophisticated Rose */
+    --accent: 345 25% 85%;
+    --accent-foreground: 30 8% 12%;
+    
+    /* Fashion Destructive */
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* Borders & Inputs */
+    --border: 30 6% 88%;
+    --input: 30 6% 88%;
+    --ring: 30 8% 15%;
+    
+    /* Fashion Specific Colors */
+    --fashion-gold: 45 85% 65%;
+    --fashion-gold-foreground: 30 8% 12%;
+    --fashion-nude: 25 15% 88%;
+    --fashion-charcoal: 30 8% 15%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--fashion-charcoal)));
+    --gradient-accent: linear-gradient(120deg, hsl(var(--accent)), hsl(var(--fashion-nude)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--fashion-gold)), hsl(45 70% 55%));
+    
+    /* Shadows */
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--primary) / 0.1);
+    --shadow-product: 0 8px 32px -8px hsl(var(--primary) / 0.15);
+    --shadow-hover: 0 12px 40px -12px hsl(var(--primary) / 0.2);
+    
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Mode Fashion Theme */
+    --background: 30 8% 8%;
+    --foreground: 35 8% 95%;
+    
+    --card: 30 8% 10%;
+    --card-foreground: 35 8% 95%;
+    
+    --popover: 30 8% 10%;
+    --popover-foreground: 35 8% 95%;
+    
+    --primary: 35 8% 95%;
+    --primary-foreground: 30 8% 8%;
+    
+    --secondary: 30 8% 15%;
+    --secondary-foreground: 35 8% 95%;
+    
+    --muted: 30 8% 15%;
+    --muted-foreground: 30 5% 65%;
+    
+    --accent: 345 25% 25%;
+    --accent-foreground: 35 8% 95%;
+    
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 35 8% 95%;
+    
+    --border: 30 8% 20%;
+    --input: 30 8% 20%;
+    --ring: 35 8% 85%;
+    
+    /* Dark Mode Fashion Colors */
+    --fashion-gold: 45 75% 55%;
+    --fashion-nude: 25 10% 25%;
+    --fashion-charcoal: 30 8% 25%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
