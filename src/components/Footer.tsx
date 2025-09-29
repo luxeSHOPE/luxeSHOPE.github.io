@@ -34,19 +34,19 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="font-semibold text-lg">Shop</h4>
             <nav className="flex flex-col space-y-2">
-              <Link to="/shop" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/new-arrivals" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 New Arrivals
               </Link>
-              <Link to="/shop" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/women" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Women
               </Link>
-              <Link to="/shop" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/men" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Men
               </Link>
-              <Link to="/shop" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/accessories" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Accessories
               </Link>
-              <Link to="/shop" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/sale" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Sale
               </Link>
             </nav>
@@ -59,13 +59,13 @@ export function Footer() {
               <Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 About Us
               </Link>
-              <Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/careers" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Careers
               </Link>
-              <Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/press" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Press
               </Link>
-              <Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/sustainability" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Sustainability
               </Link>
             </nav>
@@ -78,13 +78,13 @@ export function Footer() {
               <Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Contact Us
               </Link>
-              <Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/size-guide" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Size Guide
               </Link>
-              <Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/shipping-returns" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 Shipping & Returns
               </Link>
-              <Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
+              <Link to="/faq" className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                 FAQ
               </Link>
             </nav>

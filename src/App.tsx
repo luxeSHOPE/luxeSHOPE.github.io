@@ -15,6 +15,17 @@ import Search from "./pages/Search";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import NotFound from "./pages/NotFound";
+import NewArrivals from "./pages/NewArrivals";
+import Women from "./pages/Women";
+import Men from "./pages/Men";
+import Accessories from "./pages/Accessories";
+import Sale from "./pages/Sale";
+import Careers from "./pages/Careers";
+import Press from "./pages/Press";
+import Sustainability from "./pages/Sustainability";
+import SizeGuide from "./pages/SizeGuide";
+import ShippingReturns from "./pages/ShippingReturns";
+import FAQ from "./pages/FAQ";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +47,17 @@ const App = () => (
           <Route path="/search" element={<Search />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/new-arrivals" element={<NewArrivals />} />
+          <Route path="/women" element={<Women />} />
+          <Route path="/men" element={<Men />} />
+          <Route path="/accessories" element={<Accessories />} />
+          <Route path="/sale" element={<Sale />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/press" element={<Press />} />
+          <Route path="/sustainability" element={<Sustainability />} />
+          <Route path="/size-guide" element={<SizeGuide />} />
+          <Route path="/shipping-returns" element={<ShippingReturns />} />
+          <Route path="/faq" element={<FAQ />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
